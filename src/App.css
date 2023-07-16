@@ -6,3 +6,8 @@ svg{
         opacity: 1;
     }
 }
+.completed{
+    text-decoration-color: red !important;
+    text-decoration:3px line-through;
+    
+}

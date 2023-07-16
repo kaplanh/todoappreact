@@ -50,7 +50,7 @@ const TodoList = ({ todos, setTodos }) => {
                         <span 
                             className={
                                 todo.completed
-                                    ? "text-decoration-line-through"
+                                    ? "completed"
                                     : "text-decoration-none"
                             }
                         >
