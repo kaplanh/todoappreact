@@ -9,7 +9,7 @@ import { useEffect, useState } from "react";
 
 const App = () => {
     const [todos, setTodos] = useState(
-        JSON.parse(localStorage.getItem("todos") || [])
+        JSON.parse(localStorage.getItem("todos")) || []
     );
     useEffect(() => {
         localStorage.setItem("todos", JSON.stringify(todos));
