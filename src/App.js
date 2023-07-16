@@ -1,3 +1,4 @@
+import "./App.css"
 // React comp
 import Header from "./components/Header";
 import TodoList from "./components/TodoList";
